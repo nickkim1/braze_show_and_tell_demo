@@ -38,7 +38,7 @@ last_offloaded_retargeting_data_at: 0
 last_deleted_summaries_at: 0
 start_offloading_retargeting_data_at: 0
 ready_to_offload_retargeting_data:
-git_sync_state: untracked
+git_sync_state: up_to_date
 conversion_behaviors: []
 exit_criteria:
   segment_ids: []
