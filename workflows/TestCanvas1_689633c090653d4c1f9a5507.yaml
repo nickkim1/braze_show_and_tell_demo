@@ -3,7 +3,7 @@ workflow_id: 689633c090653d4c1f9a5507
 create_version: false
 api_workflow_id: a86c1a20-0811-41bf-add1-d607fd0c0f65
 workflow_name: TestCanvas1
-workflow_description:: desc1ahfkf
+workflow_description: adksfhaksdfj
 segment_ids:
 - - 6896324f90653d4c1f9a54ce
 match_more_than_once: false
@@ -32,7 +32,7 @@ priority_bucket: 2
 priority_for_unpersisted_workflow:
 has_advanced_to_grid_view: true
 maximum_duration: 172800
-last_edit_changelog_id: 6896361b90653d4c1f9a583f
+last_edit_changelog_id: 68964faf90653d78453e6df8
 is_currently_expired: false
 last_offloaded_retargeting_data_at: 0
 last_deleted_summaries_at: 0
@@ -64,16 +64,15 @@ schedule:
   thursday: false
   friday: false
   saturday: false
-  start_date_unix: 1754674680
-  end_date_unix: 1754761080
+  start_date_unix: 1754681220
+  end_date_unix: 1754767620
   next_send_occurence:
 steps:
-- step_id: 6896341929394248b3c2bf83
-  step_name: Step
-  next_step_ids:
-  - 6896341c9c87beb9100cf2a5
+- step_id: 6896341c9c87beb9100cf2a5
+  step_name: Step 1
+  next_step_ids: []
   row: 0
-  column: 0
+  column: 1
   is_control_step: false
   type: DELAY
   id_eagerly_created: true
@@ -92,11 +91,12 @@ steps:
     duration_variable_type:
     duration_variable_unit:
   is_disconnected: false
-- step_id: 6896341c9c87beb9100cf2a5
-  step_name: Step 1
-  next_step_ids: []
+- step_id: 6896341929394248b3c2bf83
+  step_name: Step
+  next_step_ids:
+  - 6896341c9c87beb9100cf2a5
   row: 0
-  column: 1
+  column: 0
   is_control_step: false
   type: DELAY
   id_eagerly_created: true
