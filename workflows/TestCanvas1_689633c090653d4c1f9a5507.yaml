@@ -12,7 +12,7 @@ schedule_type: time_based
 recipient_subscription_state: 1
 ignore_global_frequency_capping: false
 exclude_from_global_frequency_count: false
-enabled: false
+enabled: true
 is_draft: true
 version: flow
 tag_names: []
@@ -32,13 +32,13 @@ priority_bucket: 2
 priority_for_unpersisted_workflow:
 has_advanced_to_grid_view: true
 maximum_duration: 172800
-last_edit_changelog_id: 6896342590653d4c1f9a577e
+last_edit_changelog_id: 6896361b90653d4c1f9a583f
 is_currently_expired: false
 last_offloaded_retargeting_data_at: 0
 last_deleted_summaries_at: 0
 start_offloading_retargeting_data_at: 0
 ready_to_offload_retargeting_data:
-git_sync_state: untracked
+git_sync_state: local_ahead
 conversion_behaviors: []
 exit_criteria:
   segment_ids: []
@@ -64,8 +64,8 @@ schedule:
   thursday: false
   friday: false
   saturday: false
-  start_date_unix: 1754674200
-  end_date_unix: 1754760600
+  start_date_unix: 1754674680
+  end_date_unix: 1754761080
   next_send_occurence:
 steps:
 - step_id: 6896341929394248b3c2bf83
