@@ -1,0 +1,114 @@
+---
+workflow_id: 6896371290653d56e790b10d
+create_version: false
+api_workflow_id: d022f573-0d78-434d-9d96-b3521994c2e3
+workflow_name: TestCanvas3
+workflow_description:
+segment_ids:
+- - 6896324f90653d4c1f9a54ce
+match_more_than_once: false
+can_match_again_after_seconds: 86400
+schedule_type: time_based
+recipient_subscription_state: 1
+ignore_global_frequency_capping: false
+exclude_from_global_frequency_count: false
+enabled: false
+is_draft: true
+version: flow
+tag_names: []
+has_recipients_limit: false
+max_recipients:
+max_recipients_is_global:
+volume_limit_daily:
+recipient_limit_frequency:
+time_rate_limit:
+channel_rate_limits: {}
+territory_ids: []
+match_again_is_max_duration: true
+seed_exclude_already_sent_not_updated: true
+automatic_distribution_optimization: false
+iam_step_ids_in_priority_order: []
+priority_bucket: 2
+priority_for_unpersisted_workflow:
+has_advanced_to_grid_view: true
+maximum_duration: 86400
+last_edit_changelog_id: 6896372590653d56e990b110
+is_currently_expired: false
+last_offloaded_retargeting_data_at: 0
+last_deleted_summaries_at: 0
+start_offloading_retargeting_data_at: 0
+ready_to_offload_retargeting_data:
+git_sync_state: untracked
+conversion_behaviors: []
+exit_criteria:
+  segment_ids: []
+  filters:
+  exit_event: []
+  using_v2_filters: true
+filters:
+exclusion_filters:
+using_v2_filters: true
+schedule:
+  send_immediately: true
+  recurring: false
+  frequency: Once
+  start_date: '2025-08-08'
+  end_date: '2025-08-09'
+  deliver_in_local_time: false
+  end_condition: never
+  optimal_time_notification: false
+  sunday: false
+  monday: false
+  tuesday: false
+  wednesday: false
+  thursday: false
+  friday: false
+  saturday: false
+  start_date_unix: 1754674980
+  end_date_unix: 1754761380
+  next_send_occurence:
+steps:
+- step_id: 6896372267b5aa1135e24694
+  step_name: Step
+  next_step_ids: []
+  row: 0
+  column: 0
+  is_control_step: false
+  type: DELAY
+  id_eagerly_created: true
+  step_data:
+    delay_in_seconds: 86400
+    specific_time:
+    in_local_time:
+    delay_until:
+    delay_until_iso:
+    delay_until_next_day:
+    advance_same_day:
+    delay_as_minimum_duration: true
+    delay_until_variable:
+    delay_until_variable_type:
+    duration_variable:
+    duration_variable_type:
+    duration_variable_unit:
+  is_disconnected: false
+step_count: 1
+deletion_move_to_map: {}
+variations:
+- id: 6896371290653d56e790b111
+  name: Variant 1
+  send_percentage: 100
+  initial_send_percentage: 100
+  first_step_ids: []
+  first_canvas_step_id: 6896372267b5aa1135e24694
+  is_control: false
+quiet_time_data:
+  has_quiet_time: false
+  send_after_quiet_time: false
+  quiet_start_hour: 0
+  quiet_start_minute: '00'
+  quiet_end_hour: 8
+  quiet_end_minute: '00'
+controller: app_settings
+action: export_workflow_to_git
+app_group_id: 6896324f90653d4c1f9a54aa
+app_setting: {}
