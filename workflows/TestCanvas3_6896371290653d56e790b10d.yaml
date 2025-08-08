@@ -3,7 +3,7 @@ workflow_id: 6896371290653d56e790b10d
 create_version: false
 api_workflow_id: d022f573-0d78-434d-9d96-b3521994c2e3
 workflow_name: TestCanvas3
-workflow_description: desc31231
+workflow_description: desc3
 segment_ids:
 - - 6896324f90653d4c1f9a54ce
 match_more_than_once: false
@@ -32,13 +32,13 @@ priority_bucket: 2
 priority_for_unpersisted_workflow:
 has_advanced_to_grid_view: true
 maximum_duration: 86400
-last_edit_changelog_id: 6896372590653d56e990b110
+last_edit_changelog_id: 6896449890653d7d7efd40cf
 is_currently_expired: false
 last_offloaded_retargeting_data_at: 0
 last_deleted_summaries_at: 0
 start_offloading_retargeting_data_at: 0
 ready_to_offload_retargeting_data:
-git_sync_state: untracked
+git_sync_state: up_to_date
 conversion_behaviors: []
 exit_criteria:
   segment_ids: []
@@ -64,8 +64,8 @@ schedule:
   thursday: false
   friday: false
   saturday: false
-  start_date_unix: 1754674980
-  end_date_unix: 1754761380
+  start_date_unix: 1754678400
+  end_date_unix: 1754764800
   next_send_occurence:
 steps:
 - step_id: 6896372267b5aa1135e24694
