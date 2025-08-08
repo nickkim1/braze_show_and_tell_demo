@@ -3,7 +3,7 @@ workflow_id: 6896366b90653d4c1f9a586f
 create_version: false
 api_workflow_id: bffcb048-1dbd-4732-959c-157e92f12920
 workflow_name: TestCanvas2
-workflow_description: desc212312
+workflow_description: desc212
 segment_ids:
 - - 6896324f90653d4c1f9a54ce
 match_more_than_once: false
